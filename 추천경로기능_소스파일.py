@@ -1,6 +1,7 @@
 # 사용전 필수 패키지들입니다
 # pip install selenium // cmd 창에서 입력
 # https://chromedriver.chromium.org/downloads  // 자신의 크롬 버전과 맞는 드라이버 다운 후 소스파일과 같은 디렉터리 안에 exe 파일을 저장해주세요
+# 크롬 버전은 우측 상단의 점 3개 -> 도움말 -> chrome 정보에서 확인 가능합니다
 
 
 from selenium.webdriver.common.keys import Keys
