@@ -11,6 +11,7 @@ start_point = input("출발 지점: ")
 end_point = input("도착 지점: ")
 try:
     op = webdriver.ChromeOptions()
+    op.add_argument('headless')
     op.add_experimental_option('excludeSwitches',['enable-logging'])
     wd = webdriver.Chrome('./chromedriver.exe',options=op)
     wd.get('https://map.naver.com/v5/directions/-/-/-/transit?c=14237419.6299418,4431807.5627088,15,0,0,0,dh')
